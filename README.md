@@ -32,10 +32,6 @@ This repository contains a demo project that automates both UI and API testing f
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/your-username/rest-api-test-site.git
-   cd rest-api-test-site
-   ```
 
 2. Install dependencies:
 

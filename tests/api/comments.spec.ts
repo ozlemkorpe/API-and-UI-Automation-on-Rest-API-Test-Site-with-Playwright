@@ -52,7 +52,7 @@ test.describe('Get all comments', () => {
 
   test.describe('Add a comment', () => {
     //TODO: Add response body checks  
-    test.only('Add a comment with Basic Authentication', async ({ request }) => {
+    test('Add a comment with Basic Authentication', async ({ request }) => {
       const requestBody = {
         user_id: "21",
         post_id: "34543",
@@ -71,7 +71,7 @@ test.describe('Get all comments', () => {
    //TODO: Add response body checks
     test.describe('Get comment by id', () => {
   
-      test.only('Add a comment with Basic Authentication', async ({ request }) => {
+      test('Add a comment with Basic Authentication', async ({ request }) => {
         const response = await request.get('http://rest.testsparker.com/basic_authentication/api/comments/34', {
           headers: {
             Authorization: `Basic ${basic}`,
